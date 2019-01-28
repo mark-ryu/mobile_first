@@ -1,0 +1,13 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+}
+
+#landing h1 {
+    font-weight: lighter;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+}

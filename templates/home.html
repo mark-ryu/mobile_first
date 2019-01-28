@@ -3,6 +3,7 @@
 {% block content %}
 
 <main>
+    <!-- Landing Area-->
     <div id="landing">
         <div id="landing-text">
             <div id="landing-text-inner">
@@ -13,8 +14,32 @@
                 </a>
             </div>
         </div>
+        <div id="landing-image"></div>
+    </div>
+
+    <div id="images">
+        <div id="header">
+            <h2>Our Work</h2>
+        </div>
+        {% for each in range(5) %}
+            <img src="{{ url_for('static', filename='red.jpg') }}" alt="">
+            <div class="caption">
+            <h3>Photo {{ each }}</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugiat!</p>
+            </div>
+        {% endfor %}
+
     </div>
 </main>
+
+<footer>
+    <h3>Get in Touch</h3>
+    <p>Email or call us for consulting</p>
+    <p>mail: <strong>contactme@yahoo.com</strong></p>
+    <p>Phone:
+        <strong>(123456789)</strong>
+    </p>
+</footer>
 
 
 
