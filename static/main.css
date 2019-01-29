@@ -45,3 +45,86 @@ main {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
+#landing-text h2 {
+    color: #888;
+}
+
+#landing-image {
+    background: url(https://source.unsplash.com/WLUHO9A_xik/1600x900);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    transition: background 500ms ease-in-out;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background:  #333;
+    color: #fff;
+}
+#header h2 {
+    border-left: dotted 1px solid #fff;
+    border-right: dotted 1px solid #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+
+/* Screen Sized 500px up */
+@media(min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+    #landing-text {
+        height: 100vh;
+    }
+    #landing-image {
+        height: 100vh;
+    }
+}
+
+@media(min-width:700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
+
