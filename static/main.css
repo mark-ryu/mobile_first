@@ -33,12 +33,14 @@ main {
 
 #landing {
     background: #fff;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
 }
 
 #landing-text {
     display: flex;
-    height: 50vh;
-    flex: 0 1 40vw;
+    grid-row: 1fr;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -56,7 +58,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     height: 50vh;
-    flex: 0 1 60vw;
     margin: 0;
 }
 
