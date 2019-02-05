@@ -1,3 +1,22 @@
+#Requirements
+Flask (pip install flask) 
+Pipenv (pip install pipenv) or (venv)
+
+#Installation
+You can create a virtual environment and install the required packages with the following commands:
+
+Option 1:
+
+$ virtualenv venv
+$ . venv/bin/activate
+(venv) $ pip install -r requirements.txt
+
+Option 2: (my preference)
+
+$ pipenv shell
+$ git clone <repo directory>
+$ pipenv install -r path/to/requirements.txt
+
 # mobile_first
 
 Template is from Youtube Channel Called Traversy Media.
