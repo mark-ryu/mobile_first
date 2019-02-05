@@ -112,8 +112,10 @@ footer h3 {
 /* Screen Sized 500px up */
 @media(min-width: 500px) {
     #landing {
-        display: flex;
+        display: grid;
         height: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
     }
     #landing-text {
         height: 100vh;
